@@ -1,0 +1,25 @@
+body{
+    background-color: #990e38;
+}
+
+.cabeçalho-da-pagina{
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    color: #990e38;
+    font-family: "Segoe UI Symbol";
+    text-align: center;
+    font-size: 40px;
+}
+
+.descrição{
+    font-size: 18px;
+    font-family: "Segoe UI Symbol";
+    text-align: center;
+}
+
+.img-logo
