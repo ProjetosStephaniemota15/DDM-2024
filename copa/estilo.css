@@ -1,25 +1,92 @@
+img{
+    width: 100%;
+}
+
 body{
-    background-color: #990e38;
+    background-color: #990e38; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.cabeçalho-da-pagina{
-    background-color: #ffffff;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.header{
+    margin-top: 1%;
+    width: 110%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
 }
-
-h2{
-    color: #990e38;
-    font-family: "Segoe UI Symbol";
-    text-align: center;
-    font-size: 40px;
+.header h1{
+    color: #990e38; 
+    font-size: 1.5em;
+    margin: 1%;
 }
-
+.header h3{
+    color: #000;
+    font-size: 1em;
+    margin: 1%;
+}
+.logo{
+    width: 10%;
+    margin: 1%;
+}
 .descrição{
     font-size: 18px;
     font-family: "Segoe UI Symbol";
     text-align: center;
 }
 
-.img-logo
+.img-logo{
+     height: 200px;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+}
+
+.corpo-da-pagina{
+    width: 1300px;
+    margin: 50px auto 50px;
+}
+
+.grade{
+    display: grid;
+    grid-template-columns: calc(25% - 15px) calc(25% - 15px) calc(25% - 15px) calc(25% - 15px);
+    background-color: transparent; 
+    height: 760px;
+    grid-gap: 20px 20px;
+}
+
+.chaves{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 25px;
+}
+
+.grupo{
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+}
+
+.nomedogrupo{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-bandeira{
+    height: 55px;
+    width: 70px;
+    margin: 30px 30px 0 10px;
+    border-radius: 10px;
+}
+
+.nomedopais{
+    margin: -40px 30px 0 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
